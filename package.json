@@ -1,0 +1,22 @@
+{
+  "name": "ccjenkinstestproject",
+  "version": "1.0.0",
+  "description": "TestJenkinsRepo",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gilberetzu/TestJenkinsRepo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gilberetzu/TestJenkinsRepo/issues"
+  },
+  "homepage": "https://github.com/Gilberetzu/TestJenkinsRepo#readme",
+  "devDependencies": {
+    "cucumber": "^5.1.0"
+  }
+}
