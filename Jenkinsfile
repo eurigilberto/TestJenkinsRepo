@@ -5,6 +5,7 @@ pipeline {
             steps {
                 bat 'npm --version'
                 bat 'npm test'
+                bat 'npm --version'
             }
         }
     }
