@@ -4,8 +4,8 @@ pipeline {
         stage('test') {
             steps {
                 bat 'npm --version'
+                bat 'npm -i'
                 bat 'npm test'
-                bat 'npm --version'
             }
         }
     }
